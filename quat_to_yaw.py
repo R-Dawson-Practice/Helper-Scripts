@@ -1,0 +1,23 @@
+import math
+
+
+def quat_to_yaw(x, y, z, w):
+    return math.atan2(2 * (w * z + x * y), 1-2*(y*y+z*z))
+
+def rad_to_deg(rad):
+    return rad * 180/math.pi
+
+def main():
+    yaw_rad = quat_to_yaw(
+        x=0.0,
+        y=0.0,
+        z=-8.044443761925202e-06,
+        w=0.9999999999676434,
+    )
+    yaw_deg = rad_to_deg(yaw_rad)
+    print(yaw_deg)
+    print(yaw_rad)
+
+
+if __name__ == "__main__":
+    main()
