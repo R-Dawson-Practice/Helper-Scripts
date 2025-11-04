@@ -1,0 +1,1 @@
+I plan for this repo to contain a bunch of helper scripts which I use all the time for reference. These scripts will mainly be used for ROS and similar applications and may include maths equations/conversions.
