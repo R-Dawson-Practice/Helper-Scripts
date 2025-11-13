@@ -9,10 +9,7 @@ def rad_to_deg(rad):
 
 def main():
     yaw_rad = quat_to_yaw(
-        x=0.0,
-        y=0.0,
-        z=-8.044443761925202e-06,
-        w=0.9999999999676434,
+0, 0, 0.706825181105366, 0.7073882691671998
     )
     yaw_deg = rad_to_deg(yaw_rad)
     print(yaw_deg)
